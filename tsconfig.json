@@ -1,0 +1,27 @@
+{
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "ES2022",
+    "target": "ES2022",
+    "lib": [
+      "dom",
+      "ES2015"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
